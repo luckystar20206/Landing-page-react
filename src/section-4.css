@@ -1,0 +1,145 @@
+.parent {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 100px;
+	align-items: center;
+	justify-content: center;
+	width: 1100px;
+	margin-left: 160px;
+}
+
+.subparent {
+	background: rgba(60, 62, 125, 0.19);
+	backdrop-filter: blur(134px);
+	/* Note: backdrop-filter has minimal browser support */
+
+	border-radius: 5px;
+	height: 324px;
+	width: 940px;
+	left: 544.8344116210938px;
+	top: 224px;
+	border-radius: 5px;
+}
+
+.subparent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.sp-1 {
+	height: 43px;
+	width: 629px;
+	left: 700.8344116210938px;
+	top: 274px;
+	border-radius: nullpx;
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 43px;
+	/* identical to box height, or 119% */
+
+	text-align: center;
+
+	/* Base */
+
+	color: #f2994a;
+}
+
+.sp-2 {
+	height: 44px;
+	width: 396px;
+	left: 816.8344116210938px;
+	top: 337px;
+	border-radius: nullpx;
+
+	font-family: Rubik;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-align: center;
+	color: #95a1bb;
+}
+
+.subrow {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.sb-1 {
+	height: 56px;
+	width: 308px;
+	left: 0px;
+	top: 0px;
+	border-radius: 5px;
+	background: rgba(246, 246, 246, 1);
+	background: #f6f6f6;
+	opacity: 0.1;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+.sb-2 {
+	height: 56px;
+	width: 128px;
+	left: 0px;
+	top: 0px;
+	border-radius: [object Object]px;
+
+	background: #f2994a;
+	border-radius: 0px 5px 5px 0px;
+	display: flex;
+	flex-direction: column;
+}
+
+.sbb {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	/* identical to box height, or 143% */
+
+	color: rgb(15, 13, 13);
+	padding-left: 20px;
+	padding-top: 17px;
+	height: 20px;
+	width: 160px;
+	left: 16px;
+	top: 18px;
+	border-radius: nullpx;
+	font-family: Inter;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0.20000000298023224px;
+	text-align: left;
+}
+
+.sbb-1 {
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 20px;
+	/* identical to box height, or 167% */
+
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+
+	color: #ffffff;
+	padding-top: 15px;
+}
+
+.sp-3 {
+	color: #8476aa;
+}
