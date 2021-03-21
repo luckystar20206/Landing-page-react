@@ -1,4 +1,3 @@
-import { isVariableDeclaration } from 'typescript';
 import './section-4.css';
 
 const section = () => {
@@ -11,10 +10,10 @@ const section = () => {
 				</div>
 				<div className="subrow">
 					<div className="sb-1">
-						<div className='sbb'>Your Email</div>
+						<div className="sbb">Your Email</div>
 					</div>
 					<div className="sb-2">
-                        <div className='sbb-1'>SEND</div>
+						<div className="sbb-1">SEND</div>
 					</div>
 				</div>
 				<div className="sp-3">No spam. Only releases, updates and discounts</div>
